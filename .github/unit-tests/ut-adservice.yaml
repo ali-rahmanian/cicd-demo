@@ -1,0 +1,8 @@
+schemaVersion: '2.0.0'
+fileExistenceTests:
+  - name: 'Check app folder'
+    path: '/app'
+    shouldExist: true
+  - name: 'Check /opt/cprof folder'
+    path: '/opt/cprof'
+    shouldExist: true
